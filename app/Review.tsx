@@ -8,7 +8,7 @@ const Review = () => {
   return (
     <div className="container relative lg:mt-24 mt-16">
     <div className="grid grid-cols-1 pb-6 text-center">
-      <h3 className="mb-4 md:text-2xl text-xl font-medium">Customer's Review</h3>
+      <h3 className="mb-4 md:text-2xl text-xl font-medium">{`Customer's Review`}</h3>
       <p className="text-slate-400 dark:text-white/60 max-w-xl mx-auto">
         This is just a simple text made for this unique and awesome template, you
         can replace it with any text.
@@ -38,8 +38,8 @@ const Review = () => {
           </div>
           <div className="mt-6">
             <p className="text-slate-400 dark:text-white/60">
-              I didn't know a thing about icon design until I read this book. Now
-              I can create any icon I need in no time. Great resource!
+              {/* I didn't know a thing about icon design until I read this book. Now
+              I can create any icon I need in no time. Great resource! */}
             </p>
             <ul className="list-none flex mb-0 text-amber-400 mt-2">
               <li className="inline">
@@ -81,10 +81,10 @@ const Review = () => {
             </div>
           </div>
           <div className="mt-6">
-            <p className="text-slate-400 dark:text-white/60">
+            <p className="text-slate-400 dark:text-white/60">{`
               There are so many things I had to do with my old software that I
               just don't do at all with Techwind. Suspicious but I can't say I
-              don't love it.
+              don't love it.`}
             </p>
             <ul className="list-none flex mb-0 text-amber-400 mt-2">
               <li className="inline">
@@ -129,10 +129,10 @@ const Review = () => {
           </div>
           <div className="mt-6">
             <p className="text-slate-400 dark:text-white/60">
-              The best part about Techwind is every time I pay my employees, my
+              {`The best part about Techwind is every time I pay my employees, my
               bank balance doesn't go down like it used to. Looking forward to
               spending this extra cash when I figure out why my card is being
-              declined.
+              declined.`}
             </p>
             <ul className="list-none flex mb-0 text-amber-400 mt-2">
               <li className="inline">
@@ -175,9 +175,9 @@ const Review = () => {
           </div>
           <div className="mt-6">
             <p className="text-slate-400 dark:text-white/60">
-              I'm trying to get a hold of someone in support, I'm in a lot of
+              {/* {`I'm trying to get a hold of someone in support, I'm in a lot of
               trouble right now and they are saying it has something to do with my
-              books. Please get back to me right away.
+              books. Please get back to me right away.`} */}
             </p>
             <ul className="list-none flex mb-0 text-amber-400 mt-2">
               <li className="inline">
@@ -222,8 +222,8 @@ const Review = () => {
           </div>
           <div className="mt-6">
             <p className="text-slate-400 dark:text-white/60">
-              I used to have to remit tax to the EU and with Techwind I somehow
-              don't have to do that anymore. Nervous to travel there now though.
+              {/* I used to have to remit tax to the EU and with Techwind I somehow
+              don't have to do that anymore. Nervous to travel there now though. */}
             </p>
             <ul className="list-none flex mb-0 text-amber-400 mt-2">
               <li className="inline">
@@ -266,9 +266,9 @@ const Review = () => {
           </div>
           <div className="mt-6">
             <p className="text-slate-400 dark:text-white/60">
-              This is the fourth email I've sent to your support team. I am
+              {/* This is the fourth email I've sent to your support team. I am
               literally being held in jail for tax fraud. Please answer your damn
-              emails, this is important.
+              emails, this is important. */}
             </p>
             <ul className="list-none flex mb-0 text-amber-400 mt-2">
               <li className="inline">

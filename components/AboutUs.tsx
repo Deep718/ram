@@ -27,7 +27,7 @@ const AboutUs = () => {
                 <h6 className="text-orange-500 text-sm font-medium uppercase mb-2">About us</h6>
                 <h3 className="mb-4 md:text-2xl text-xl font-medium">Better Design <br/> Better Experience</h3>
 
-                <p className="text-slate-400 dark:text-white/60 max-w-xl">Obviously I'm a Web Designer. Experienced with all stages of the development cycle for dynamic web projects.</p>
+                <p className="text-slate-400 dark:text-white/60 max-w-xl">{`Obviously I'm a Web Designer. Experienced with all stages of the development cycle for dynamic web projects.`}</p>
 
                 <div className="mt-4">
                     <div className="flex justify-between mb-2">

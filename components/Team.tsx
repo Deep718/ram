@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Team = () => {
@@ -15,7 +16,7 @@ const Team = () => {
     <div className="lg:col-span-3 md:col-span-6">
       <div className="group text-center">
         <div className="relative inline-block mx-auto h-52 w-52 rounded-full overflow-hidden">
-          <img src="/assets/images/team/04.jpg" className="" alt="" />
+          <Image src="/assets/images/team/04.jpg" width={200} height={200} className="" alt="" />
           <ul className="list-none absolute top-1/2 -translate-y-1/2 -end-20 group-hover:end-5 transition-all duration-500 ease-in-out">
             <li className="">
               <a
@@ -101,7 +102,7 @@ const Team = () => {
     <div className="lg:col-span-3 md:col-span-6">
       <div className="group text-center">
         <div className="relative inline-block mx-auto h-52 w-52 rounded-full overflow-hidden">
-          <img src="/assets/images/team/05.jpg" className="" alt="" />
+          <Image src="/assets/images/team/05.jpg" width={200} height={200} className="" alt="" />
           <ul className="list-none absolute top-1/2 -translate-y-1/2 -end-20 group-hover:end-5 transition-all duration-500 ease-in-out">
             <li className="">
               <a
@@ -187,7 +188,7 @@ const Team = () => {
     <div className="lg:col-span-3 md:col-span-6">
       <div className="group text-center">
         <div className="relative inline-block mx-auto h-52 w-52 rounded-full overflow-hidden">
-          <img src="/assets/images/team/06.jpg" className="" alt="" />
+          <Image src="/assets/images/team/06.jpg" width={200} height={200} className="" alt="" />
           <ul className="list-none absolute top-1/2 -translate-y-1/2 -end-20 group-hover:end-5 transition-all duration-500 ease-in-out">
             <li className="">
               <a
@@ -273,7 +274,7 @@ const Team = () => {
     <div className="lg:col-span-3 md:col-span-6">
       <div className="group text-center">
         <div className="relative inline-block mx-auto h-52 w-52 rounded-full overflow-hidden">
-          <img src="/assets/images/team/07.jpg" className="" alt="" />
+          <Image src="/assets/images/team/07.jpg" width={200} height={200} className="" alt="" />
           <ul className="list-none absolute top-1/2 -translate-y-1/2 -end-20 group-hover:end-5 transition-all duration-500 ease-in-out">
             <li className="">
               <a

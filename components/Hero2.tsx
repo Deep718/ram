@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Hero2 = () => {
@@ -6,11 +7,11 @@ const Hero2 = () => {
     <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-6">
       <div className="">
         <h5 className="font-semibold leading-normal text-[20px] mt-6">
-          Hi, I'm{" "}
+         
           <span
             className="typewrite"
             data-period={2000}
-            data-type='[ "Calvin Carlo", "Freelancer", "Website Designer", "Web Developer", "UI/UX Designer" ]'
+            data-type='{`[ "Calvin Carlo", "Freelancer", "Website Designer", "Web Developer", "UI/UX Designer" ]`}'
           >
             <span className="wrap" />
           </span>
@@ -33,7 +34,7 @@ const Hero2 = () => {
       </div>
       <div className="relative lg:ms-6 before:content-[''] before:absolute before:start-1/2 before:-translate-x-1/2 rtl:before:translate-x-1/2 before:bottom-1/2 before:translate-y-1/2 before:w-[48rem] before:h-[20rem] before:rounded-[18rem] ltr:before:rotate-[135deg] rtl:before:rotate-[45deg] before:bg-orange-500 dark:before:bg-orange-500">
         <div className="relative z-1">
-          <img src="assets/images/hero.png" alt="" />
+          <Image src="assets/images/hero.png" alt="" />
           <div className="absolute lg:bottom-20 -bottom-5 md:-start-10 -start-2 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 m-3 w-44 text-center">
             <span className="text-3xl font-medium mb-0">
               <span className="counter-value font-bold" data-target={125}>

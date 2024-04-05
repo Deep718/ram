@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Footer = () => {
@@ -8,7 +9,7 @@ const Footer = () => {
         <div className="grid lg:grid-cols-12 md:grid-cols-3 grid-cols-1 items-center">
           <div className="lg:col-span-3 md:text-start text-center">
             <a href="#" className="text-[22px] focus:outline-none">
-              <img
+              <Image
                 src="/assets/images/logo-white.png"
                 className="mx-auto md:me-auto md:ms-0"
                 alt=""

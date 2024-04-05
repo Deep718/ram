@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Blog = () => {
@@ -14,10 +15,10 @@ const Blog = () => {
   <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-6 gap-6">
     <div className="group">
       <div className="relative overflow-hidden rounded-xl shadow-md dark:shadow-gray-700">
-        <img src="/assets/images/blog/1.jpg" className="" alt="" />
+        <Image src="/assets/images/blog/1.jpg" className="" alt="" />
         <div className="absolute inset-0 bg-gradient-to-b to-slate-900 from-transparent opacity-0 group-hover:opacity-100 duration-500" />
         <div className="absolute start-4 bottom-4 opacity-0 group-hover:opacity-100 flex items-center duration-500">
-          <img
+          <Image
             src="/assets/images/team/01.jpg"
             className="h-9 w-9 rounded-xl"
             alt=""
@@ -50,10 +51,10 @@ const Blog = () => {
     {/*end content*/}
     <div className="group">
       <div className="relative overflow-hidden rounded-xl shadow-md dark:shadow-gray-700">
-        <img src="/assets/images/blog/2.jpg" className="" alt="" />
+        <Image src="/assets/images/blog/2.jpg" className="" alt="" />
         <div className="absolute inset-0 bg-gradient-to-b to-slate-900 from-transparent opacity-0 group-hover:opacity-100 duration-500" />
         <div className="absolute start-4 bottom-4 opacity-0 group-hover:opacity-100 flex items-center duration-500">
-          <img
+          <Image
             src="/assets/images/team/01.jpg"
             className="h-9 w-9 rounded-xl"
             alt=""
@@ -86,10 +87,10 @@ const Blog = () => {
     {/*end content*/}
     <div className="group">
       <div className="relative overflow-hidden rounded-xl shadow-md dark:shadow-gray-700">
-        <img src="/assets/images/blog/3.jpg" className="" alt="" />
+        <Image src="/assets/images/blog/3.jpg" className="" alt="" />
         <div className="absolute inset-0 bg-gradient-to-b to-slate-900 from-transparent opacity-0 group-hover:opacity-100 duration-500" />
         <div className="absolute start-4 bottom-4 opacity-0 group-hover:opacity-100 flex items-center duration-500">
-          <img
+          <Image
             src="/assets/images/team/01.jpg"
             className="h-9 w-9 rounded-xl"
             alt=""

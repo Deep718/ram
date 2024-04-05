@@ -1,10 +1,11 @@
+import Image from 'next/image'
 import React from 'react'
 
 const ContactForm = () => {
   return (
     <div className="container relative md:mt-24 mt-16">
     <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
-      <img src="/assets/images/contact.svg" alt="" />
+      <Image src="/assets/images/contact.svg" alt="" />
       <div className="lg:ms-5">
         <div className="bg-white dark:bg-slate-900 rounded-xl shadow dark:shadow-gray-700 p-6">
           <h3 className="mb-6 text-2xl leading-normal font-medium">

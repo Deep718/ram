@@ -16,7 +16,7 @@ const page = () => {
 
         <div>
           <h1 className="font-black text-white lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-">
-            Hi, I'm <span className='text-[#915EFF]'>Navdeep Singh</span>
+            {`Hi, I'm `}<span className='text-[#915EFF]'>Navdeep Singh</span>
           </h1>
           <p className="text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-2 text-white-100">
             I develop 3D visuals, user <br className='sm:block hidden' />
@@ -39,13 +39,14 @@ const page = () => {
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-[90px] items-center">
       <div className="relative space-y-4 md:space-y-0">
         <div>
-          <img
-            src="/assets/img/about/1.jpg"
+          <Image
+            src="/assets/img/about/1.jpg" width={200} height={200}
             className="mx-auto dark:hidden"
             alt=""
           />
-          <img
+          <Image
             src="/assets/img/about/2.jpg"
+            width={200} height={200}
             className="mx-auto hidden dark:block"
             alt=""
           />
@@ -101,7 +102,7 @@ const page = () => {
               animationName: "fadeInUp"
             }}
           >
-            I'm a Designer
+            {/* {`I'm a Designer`} */}
           </p>
           <h3
             className="md:text-[48px] text-[35px] leading-[1.25] mt-1.5 wow fadeInUp"
@@ -124,11 +125,11 @@ const page = () => {
             animationName: "fadeInUp"
           }}
         >
-          Hello there! I'm a web designer, and I'm very passionate and dedicated
+          {`Hello there! I'm a web designer, and I'm very passionate and dedicated
           to my work. With 20 years experience as a professional web developer,
           I have acquired the skills and knowledge necessary to make your
           project a success. I enjoy every step of the design process, from
-          discussion and collaboration.
+          discussion and collaboration.`}
         </p>
         <div
           className="wow fadeInUp"
@@ -155,7 +156,7 @@ const page = () => {
       animationName: "fadeInLeft"
     }}
   >
-    <img src="/assets/brushes/about/1.png" alt="" />
+    <Image src="/assets/brushes/about/1.png" width={200} height={200} alt="" />
   </div>
   <div
     className="-bottom-[50px] right-0 absolute hidden lg:block wow fadeInRight"
@@ -166,7 +167,7 @@ const page = () => {
       animationName: "fadeInRight"
     }}
   >
-    <img src="/assets/brushes/about/2.png" alt="" />
+    <Image src="/assets/brushes/about/2.png" width={200} height={200} alt="" />
   </div>
 </section>
 
